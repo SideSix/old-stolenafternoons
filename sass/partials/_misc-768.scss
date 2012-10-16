@@ -1,0 +1,79 @@
+@media only screen and (min-width: 768px) {
+
+	body {background-color: #2C2D2D;}
+
+	#container {
+		width: 90%;
+		max-width: 1100px;
+		background: url(../images/ricepaper.png);
+	}
+
+	#wrapper {
+		float: left;
+		width: auto;
+	}
+
+	#wrapper {
+		padding: 0 10%;
+	}
+
+	#top-copy {
+		float: left;
+		width: 40%;
+	}
+
+	aside {
+		float: right;
+		width: 40%;
+	}
+
+	footer {
+		border-top: 2px solid #bbb;
+		margin: 40px 20px 0 20px;
+	}
+
+	#bottom-nav {
+		width: auto;
+		margin: 0 auto;
+	}
+
+	#bottom-nav,
+	#bottom-nav ul {
+		background: none;
+	}
+
+	#bottom-nav,
+	#bottom-nav ul,
+	#bottom-nav ul li {
+		padding: 0;
+	}
+
+	#bottom-nav ul li,
+	#bottom-nav ul li a {
+		display: inline;
+		border-radius: 8px;
+	}
+
+	#bottom-nav ul li a,
+	#bottom-nav ul li a:visited {
+		-webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+		box-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+	}
+
+	#bottom-nav ul li a:hover,
+	#bottom-nav ul li a.current
+	#bottom-nav ul li a:focus {
+		-moz-box-shadow:inset 0 1px 4px rgba(0,0,0,.7);
+   		-webkit-box-shadow:inset 0 1px 4px rgba(0,0,0,.7);
+   		box-shadow:inset 0 1px 4px rgba(0,0,0,.7);
+	}
+
+	div#copyright {
+		width: auto;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.poem {
+		font-size: .9em;
+	}
